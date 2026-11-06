@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv-linux/
+
+# 打包输出
+build/
+dist/
+*.spec
+发布/
+
+# 本地测试
+test_media/
+.gray_studio_test/
+.publish-tools/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
