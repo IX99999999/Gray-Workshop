@@ -95,7 +95,7 @@ gio set "$DESKTOP_DIR/灰度工坊.desktop" metadata::trusted true 2>/dev/null |
 echo "安装完成：$DESKTOP_DIR/灰度工坊.desktop"
 EOS
 chmod +x "$SHARE_DIR/安装到桌面.sh"
-tar -czf "$DESKTOP_DIR/灰度工坊-Linux-x64-1.0.0.tar.gz" -C "$STAGE" "灰度工坊"
+tar -czf "$DESKTOP_DIR/GrayscaleStudio-1.0.0-Linux-x64.tar.gz" -C "$STAGE" "灰度工坊"
 rm -rf "$STAGE"
 
 echo
@@ -103,4 +103,4 @@ echo "安装完成！"
 echo "  程序：$BIN"
 echo "  菜单：$MENU_DIR/grayscale-studio.desktop"
 echo "  桌面：$DESKTOP_DIR/灰度工坊.desktop"
-echo "  分享：$DESKTOP_DIR/灰度工坊-Linux-x64-1.0.0.tar.gz"
+echo "  分享：$DESKTOP_DIR/GrayscaleStudio-1.0.0-Linux-x64.tar.gz"

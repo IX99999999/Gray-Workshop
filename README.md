@@ -29,8 +29,8 @@
 
 | 平台 | 文件 | 大小 | 说明 |
 | --- | --- | --- | --- |
-| Windows 10/11 x64 | `灰度工坊-Windows-x64-1.0.0.zip` | 约 68 MB | 解压后双击 `灰度工坊.exe`，无需 Python |
-| Ubuntu 22.04+ x64 | `灰度工坊-Linux-x64-1.0.0.tar.gz` | 约 99 MB | 解压后运行 `安装到桌面.sh`，或直接双击可执行文件 |
+| Windows 10/11 x64 | `GrayscaleStudio-1.0.0-Windows-x64.zip` | 约 68 MB | 解压后双击 `灰度工坊.exe`，无需 Python |
+| Ubuntu 22.04+ x64 | `GrayscaleStudio-1.0.0-Linux-x64.tar.gz` | 约 99 MB | 解压后运行 `安装到桌面.sh`，或直接双击可执行文件 |
 
 前往 **[Releases](https://github.com/IX99999999/Gray-Workshop/releases/latest)** 下载。也可查看 [PDF 使用说明书](docs/灰度工坊-使用说明书.pdf)。
 
@@ -120,7 +120,7 @@ chmod +x build_linux.sh install_linux.sh
 ./install_linux.sh
 ```
 
-输出单文件程序并安装到 `~/.local/share/grayscale-studio/`，同时创建桌面和应用菜单入口。生成的分享包位于 `~/桌面/灰度工坊-Linux-x64-1.0.0.tar.gz`。
+输出单文件程序并安装到 `~/.local/share/grayscale-studio/`，同时创建桌面和应用菜单入口。生成的分享包位于 `~/桌面/GrayscaleStudio-1.0.0-Linux-x64.tar.gz`。
 
 ### 生成 PDF 使用说明书
 
